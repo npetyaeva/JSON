@@ -6,7 +6,9 @@
 
 5. Клонировать репозиторий JSON на локальный компьютер
 
-    `git clone https://github.com/npetyaeva/JSON.git` `cd JSON`
+    `git clone https://github.com/npetyaeva/JSON.git` 
+    
+    `cd JSON`
 
 6. Внутри локального JSON создать файл “new.json”
 
@@ -14,7 +16,7 @@
 
 7. Добавить файл под гит.
 
-    `git add .`
+    `git add new.json`
 
 8. Закоммитить файл.
 
@@ -36,10 +38,9 @@
        ```
 11. Отправить изменения на внешний репозиторий.
 
-       ```
-       git commit -am "Modified new.json"
-       git push
-       ```
+       `git commit -am "Modified new.json"`
+       
+       `git push`
 12. Создать файл preferences.json.
 
        `touch preferences.json`
@@ -57,48 +58,51 @@
        ```
 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON.
 
-        `touch sklls.json`
-        `vim sklls.json`
-        ```
-        { 
-          "6": "Что такое JSON, XML. Их структура.",
-          "7": "Тестирование API.",
-          "8": "Снятие и чтение логов.",
-          "9": "Postman, Fidler.",
-          "11": "Dev Tools веб браузеров (Google Chrome, FireFox)."
-        }
-        ```
+    `touch sklls.json`
+
+    `vim sklls.json`
+    ```
+    { 
+      "6": "Что такое JSON, XML. Их структура.",
+      "7": "Тестирование API.",
+      "8": "Снятие и чтение логов.",
+      "9": "Postman, Fidler.",
+      "11": "Dev Tools веб браузеров (Google Chrome, FireFox)."
+    }
+    ```
 15. Отправить сразу 2 файла на внешний репозиторий.
 
-        `git add .`
-        `git commit -m "Added preferences.json & sklls.json"`
-        `git push`
+    `git add .`
+
+    `git commit -m "Added preferences.json & sklls.json"`
+
+    `git push`
 16. На веб интерфейсе создать файл bug_report.json.
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 
-        ```
-        {
-          "ID": "BR000",
-          "Summary": "Заголовок",
-          "Description": [
-                          "1. ...",
-                          "2. ..."
-                          ],
-          "Actual result": "Фактический результат",
-          "Еxpected result": "Ожидаемый результат",
-          "Enviroment":
-          {
-                  "OS": "ОС",
-                  "Browser": "Браузер"
-          },
-          "Severity": "Серьезность",
-          "Priority": "Приоритет",
-          "Author": "Автор",
-          "Sign to": "Назначено на",
-          "Attachments": "Вложения"
-        }
-        ```
+    ```
+    {
+      "ID": "BR000",
+      "Summary": "Заголовок",
+      "Description": [
+                      "1. ...",
+                      "2. ..."
+                      ],
+      "Actual result": "Фактический результат",
+      "Еxpected result": "Ожидаемый результат",
+      "Enviroment":
+      {
+              "OS": "ОС",
+              "Browser": "Браузер"
+      },
+      "Severity": "Серьезность",
+      "Priority": "Приоритет",
+      "Author": "Автор",
+      "Sign to": "Назначено на",
+      "Attachments": "Вложения"
+    }
+    ```
 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
        `https://github.com/npetyaeva/JSON/blob/main/bug_report.json`
