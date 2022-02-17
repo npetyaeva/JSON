@@ -87,7 +87,7 @@
     ```json
     {
       "ID": "0001",
-      "Summary": "Missing product images on the Product page ",
+      "Summary": "Missing product images on the Product page",
       "Priority": "High",
       "Severity": "Major",
       "Еxpected result": "Product images are displayed on the Product page",
